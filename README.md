@@ -1,15 +1,21 @@
-## My Project
+# K8sResourceResizer
 
-TODO: Fill this README out!
+A tool for automatically optimizing Kubernetes resource limits and requests based on historical usage patterns.
 
-Be sure to:
+## Documentation
+- [Main Project Documentation](./K8sResourceResizer/README.md) - Detailed documentation about the K8sResourceResizer tool
+- [PreRequirements Documentation](./PreRequirements/README.md) - Setup instructions and prerequisites
 
-* Change the title in this README
-* Edit your repository description on GitHub
+## Summary
+K8sResourceResizer is an intelligent tool that automatically optimizes Kubernetes resource configurations by analyzing historical usage patterns. It uses multiple prediction strategies including Prophet, Ensemble, and Time-aware approaches to recommend optimal CPU and memory settings. The tool integrates with Amazon Managed Prometheus (AMP) for metrics collection and supports ArgoCD workflows. Key features include business hours awareness, trend detection, and support for various time windows. It can be run locally for testing or integrated into CI/CD pipelines, with GitHub Actions support provided out of the box.
 
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## Features
+- Multiple prediction strategies (Prophet, Ensemble, Time-aware, etc.)
+- Support for various time windows for historical analysis
+- Business hours awareness
+- Trend detection and analysis
+- Integration with Amazon Managed Prometheus (AMP)
+- ArgoCD integration for GitOps workflows
 
 ## License
 
