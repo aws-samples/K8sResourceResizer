@@ -9,7 +9,11 @@ K8s Limits Auto Resizer is an intelligent tool that automatically optimizes Kube
 Before using this tool, please review the [PreRequirements documentation](../PreRequirements/README.md) for setup instructions and prerequisites.
 
 ## Solution Architecture
-![architecture](../images/solution_architecture.jpg)
+![architecture](./images/solution_architecture.jpg)
+
+## Demo
+![demo](./images/demo.mp4)
+
 
 ## Prerequisites
 * [AWS Account](https://portal.aws.amazon.com/billing/signup/iam?#)
