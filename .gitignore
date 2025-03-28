@@ -1,0 +1,101 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Poetry environment files
+.env
+.mypy_cache/
+.dmypy.json
+poetry.lock
+
+# PyCharm specific files
+.idea/
+*.iml
+*.iws
+
+# Log files
+*.log
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Pytest
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Coverage reports
+.coverage
+*.cover
+coverage.xml
+*.lcov
+
+# PyInstaller
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+
+# Bandit
+.bandit/
+
+# Test outputs
+.junit/
+
+# VSCode settings (if using)
+.vscode/
+
+# Build files
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# YAML files (if output should not be versioned)
+K8sResourceResizer/TEMP/*.yaml
+K8sResourceResizer/Docker/kube/
+kube/
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# TEMP folder
+TEMP/
+TEMP/*
