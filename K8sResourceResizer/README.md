@@ -12,7 +12,8 @@ Before using this tool, please review the [PreRequirements documentation](../Pre
 ![architecture](./images/solution_architecture.jpg)
 
 ## Demo
-![demo](./images/demo.mp4)
+
+https://github.com/user-attachments/assets/0cef1202-50f4-4548-997a-dce2e02c8625
 
 
 ## Prerequisites
