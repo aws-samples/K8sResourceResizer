@@ -1,22 +1,22 @@
 # Docker Environment for K8s Resource Optimization
 
-This Docker environment provides a complete setup for running the Kubernetes Resource Optimizer with k3d, kubectl, and Argo CD. It's designed to run without privileged mode for better security and compatibility with CI/CD platforms.
+A Docker environment for running the Kubernetes Resource Optimizer with k3d, kubectl, and Argo CD. The setup runs without privileged mode for security and CI/CD platform compatibility.
 
 ## Features
 
-- Secure setup without privileged mode
+- Non-privileged mode operation
 - Pre-installed tools:
   - k3d (latest)
   - kubectl (latest stable)
   - Argo CD CLI (v2.7.3)
   - Resource Optimization tools
-- Automated k3d cluster setup
-- Integrated Argo CD deployment
-- Support for both local development and resource optimization
+- k3d cluster setup
+- Argo CD deployment
+- Local development and resource optimization modes
 
 ## Prerequisites
 
-- Docker installed on your host machine
+- Docker installed on host machine
 - AWS credentials (for AMP access)
 - Available ports:
   - 8080 (Argo CD UI)

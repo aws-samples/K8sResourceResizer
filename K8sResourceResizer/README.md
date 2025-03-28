@@ -1,9 +1,9 @@
 # K8s Limits Auto Resizer
 
-A tool for automatically optimizing Kubernetes resource limits and requests based on historical usage patterns.
+A tool that optimizes Kubernetes resource limits and requests based on historical usage patterns.
 
 ## Summary
-K8s Limits Auto Resizer is an intelligent tool that automatically optimizes Kubernetes resource configurations by analyzing historical usage patterns. It uses multiple prediction strategies including Prophet, Ensemble, and Time-aware approaches to recommend optimal CPU and memory settings. The tool integrates with Amazon Managed Prometheus (AMP) for metrics collection and supports ArgoCD workflows. Key features include business hours awareness, trend detection, and support for various time windows. It can be run locally for testing or integrated into CI/CD pipelines, with GitHub Actions support provided out of the box.
+K8s Limits Auto Resizer optimizes Kubernetes resource configurations through historical usage pattern analysis. It implements Prophet, Ensemble, and Time-aware approaches to set optimal CPU and memory settings. The tool integrates with Amazon Managed Prometheus (AMP) for metrics collection and supports ArgoCD workflows. Core features include business hours awareness, trend detection, and time window analysis. Users can run it locally or integrate it into CI/CD pipelines with GitHub Actions.
 
 ## Prerequisites
 Before using this tool, please review the [PreRequirements documentation](../PreRequirements/README.md) for setup instructions and prerequisites.
