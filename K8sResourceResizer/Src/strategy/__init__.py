@@ -1,3 +1,7 @@
+"""
+Strategy module for resource optimization.
+"""
+
 from enum import Enum
 from dataclasses import dataclass
 from typing import List
