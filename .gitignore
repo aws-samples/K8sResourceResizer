@@ -10,7 +10,7 @@ __pycache__/
 .env
 .mypy_cache/
 .dmypy.json
-poetry.lock
+# poetry.lock is NOT ignored - it should be committed to version control
 
 # PyCharm specific files
 .idea/
