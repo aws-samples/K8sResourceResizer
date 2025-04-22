@@ -1099,14 +1099,14 @@ urllib3 = "*"
 
 [[package]]
 name = "prometheus-api-client"
-version = "0.5.5"
+version = "0.6.0"
 description = "A small python api to collect data from prometheus"
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "prometheus-api-client-0.5.5.tar.gz", hash = "sha256:59449c4be0485ea5a2dfbbed2482eb0a3eeac8c131b3efc866df4c9a0c403bb7"},
-    {file = "prometheus_api_client-0.5.5-py3-none-any.whl", hash = "sha256:e65ad16c262da15ed2d2288b521a80278feed2d31e7f0e732a935b67af8e24b4"},
+    {file = "prometheus_api_client-0.6.0-py3-none-any.whl", hash = "sha256:137fa4576a76177547c4d7bb43e2a457df95f5bd81afe782896ba77ab87ebaf6"},
+    {file = "prometheus_api_client-0.6.0.tar.gz", hash = "sha256:80822f1bb599febcab27c5ba2924b1c236d01f9b0df0308f91b5087937a6ad3e"},
 ]
 
 [package.dependencies]
@@ -1890,4 +1890,4 @@ dev = ["black (>=19.3b0) ; python_version >= \"3.6\"", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "~3.12.0"
-content-hash = "04a149923408c38f8e707004e04c9cb62659fc261e9c63552a415fd5c28b6332"
+content-hash = "60107a533d80fc2fa0fe9efe246edb987a7e960db12fe95efbc8bf5772756e36"
